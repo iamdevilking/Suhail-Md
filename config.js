@@ -26,7 +26,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "923078071982" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923078071982";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "3197010270913";
 
 
 
@@ -72,12 +72,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.1",
-  caption : process.env.CAPTION || "©I'm Bilal king 👑" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ I'm Bilal king 👑 』```", //*『join my group • I'm Bilal king 👑』*\n https://chat.whatsapp.com/DIXpDLo6cKl9OxJnaQkDW5"),
+  caption : process.env.CAPTION || "MIRZA_KING 👑" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ I'm Bilal king 👑 』```", //*『join my group • I'm Bilal king 👑』*\n https://chat.whatsapp.com/DIXpDLo6cKl9OxJnaQkDW5"),
  
-  author : process.env.PACK_AUTHER|| "I'm Bilal king 👑",
+  author : process.env.PACK_AUTHER|| "MIRZA-King 👑",
   packname: process.env.PACK_NAME || "⚖️",
-  botname : process.env.BOT_NAME  || "I'm Bilal king 👑",
-  ownername:process.env.OWNER_NAME|| "I'm Bilal king 👑",
+  botname : process.env.BOT_NAME  || "MIRZA-KING 👑",
+  ownername:process.env.OWNER_NAME|| "MIRZA-KING 👑",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -93,7 +93,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "I'm Bilal king 👑"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "MIRZA-KING 👑"  ).toUpperCase(),
 
 
 
